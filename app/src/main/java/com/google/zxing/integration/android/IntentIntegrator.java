@@ -246,7 +246,6 @@ public class IntentIntegrator {
                         fragment.startActivity(intent);
                     }
                 } catch (ActivityNotFoundException anfe) {
-                    // Hmm, market is not installed
                     Log.w(TAG, "Google Play is not installed; cannot install " + packageName);
                 }
             }
